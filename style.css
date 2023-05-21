@@ -1,0 +1,214 @@
+/*Mobile first */
+@media screen and (max-width:425px) {
+
+    /* Estilos gerais */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: hsl(218, 23%, 16%);
+        overflow: hidden;
+    }
+
+    /* Disposição dos elementos */
+    .container-geral {
+        display: flex;
+        justify-content: center;
+        margin: 40% auto;
+    }
+
+    /* Estilo do container e o seu tamanho */
+    .container {
+        width: 20rem;
+        height: 19rem;
+        background-color: hsl(217, 19%, 24%);
+        border-radius: 10px;
+    }
+
+    /*Titulo "Conselho" */
+    .title {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    h6 {
+        font-family: 'Manrope', sans-serif;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: hsl(150, 100%, 66%);
+        letter-spacing: 2px;
+    }
+
+    /* Estilo do paragrafo */
+    .container-conselhos {
+        display: flex;
+        margin-top: 8%;
+    }
+
+    p {
+        font-family: 'Manrope';
+        font-size: 24px;
+        text-align: center;
+        color: hsl(193, 38%, 86%);
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+
+    /*Disposição dos icones */
+    .icon-row{
+        margin-top: 8%;
+        text-align: center;
+    }
+
+    /* Estilo do botão */
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 7%;
+    }
+
+    button{
+        padding: 2%;
+        border-radius: 50%;
+        background-color: hsl(150, 100%, 66%);
+        border-color:hsl(150, 100%, 66%) ;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilos gerais */ 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color:hsl(218, 23%, 16%) ;
+    }
+    
+    .container-geral{
+        display: flex;
+        justify-content: center;
+        margin-top: 15%;
+        
+    }
+
+    .container{
+        background-color: hsl(217, 19%, 24%);
+        width: 27rem;
+        height: 17rem;
+        border-radius: 11px;
+    }
+
+    .title{
+        text-align: center;
+        margin-top: 9%;
+    }
+
+    h6{
+        text-transform: uppercase;
+        font-family: 'Manrope', sans-serif;
+        font-size: 12px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: hsl(150, 100%, 66%);
+        letter-spacing: 2px;
+    }
+
+    .container-conselhos{
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    p{
+        text-align: center;
+        font-size: 26px;
+        color: hsl(193, 38%, 86%);
+        font-family: 'Manrope';
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+
+    .icon-row{
+        text-align: center;
+        
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-top: -2%;
+    }
+
+    button{
+        padding: 1%;
+        border-radius: 50%;
+        background-color: hsl(150, 100%, 66%);
+        border-color: hsl(150, 100%, 66%);
+    }
+
+    button:hover{
+        transition: 0.3s;
+        cursor: pointer;
+        box-shadow: 0 0 10px hsl(150, 100%, 66%);
+    }
+
+
+
