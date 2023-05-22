@@ -16,7 +16,7 @@
     /* Disposição dos elementos */
     .container-geral {
         display: flex;
-        justify-content: justify;
+        justify-content: center;
         margin: 40% auto;
     }
 
@@ -50,12 +50,13 @@
     }
 
     p {
+        
         font-family: 'Manrope';
         font-size: 24px;
         text-align: center;
         color: hsl(193, 38%, 86%);
         overflow: hidden;
-        display: -webkit-box;
+        margin: auto;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
     }
