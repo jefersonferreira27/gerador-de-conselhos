@@ -22,7 +22,7 @@
 
     /* Estilo do container e o seu tamanho */
     .container {
-        width: 20rem;
+        width: 23rem;
         height: 19rem;
         background-color: hsl(217, 19%, 24%);
         border-radius: 10px;
@@ -103,14 +103,14 @@ body {
 .container-geral {
     display: flex;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 12%;
 
 }
 
 .container {
     background-color: hsl(217, 19%, 24%);
     width: 27rem;
-    height: 17rem;
+    height: 21rem;
     border-radius: 11px;
 }
 
@@ -154,7 +154,7 @@ p {
 .btn {
     display: flex;
     justify-content: center;
-    margin-top: -1.4rem;
+    margin-top: -1.7rem;
 }
 
 button {
