@@ -1,5 +1,5 @@
 /*Mobile first */
-@media screen and (max-width:425px) {
+@media screen and (max-width:546px) {
 
     /* Estilos gerais */
     * {
@@ -76,7 +76,7 @@
     }
 
     button {
-        padding: 3%;
+        padding: 1.2rem;
         border-radius: 50%;
         background-color: hsl(150, 100%, 66%);
         border-color: hsl(150, 100%, 66%);
@@ -88,7 +88,7 @@
 }
 
 /*Desktop */
-@media screen and (min-width:967px){
+@media screen and (min-width:547px){
     /*Estilos gerais */
 * {
     margin: 0;
@@ -154,11 +154,11 @@ p {
 .btn {
     display: flex;
     justify-content: center;
-    margin-top: -2%;
+    margin-top: -1.4rem;
 }
 
 button {
-    padding: 1%;
+    padding: 1rem;
     border-radius: 50%;
     background-color: hsl(150, 100%, 66%);
     border-color: hsl(150, 100%, 66%);
