@@ -16,7 +16,7 @@
     /* Disposição dos elementos */
     .container-geral {
         display: flex;
-        justify-content: center;
+        justify-content: justify;
         margin: 40% auto;
     }
 
